@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_add_celeb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/addCelebImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:padding="@dimen/large_margin"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo" />
+
+        <EditText
+            android:id="@+id/addCelebNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:hint="@string/hint_celeb_name"
+            android:padding="@dimen/large_margin" />
+
+        <Button
+            android:id="@+id/addCelebSaveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/small_margin"
+            android:padding="@dimen/large_margin"
+            android:text="@string/btn_save" />
+    </LinearLayout>
+
+</RelativeLayout>

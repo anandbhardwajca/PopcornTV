@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/content_add_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/medium_margin"
+            android:text="@string/celeb_name_spinner"
+            android:textSize="@dimen/large_text" />
+
+        <Spinner
+            android:id="@+id/addPostImageCelebSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/large_margin"
+            android:padding="@dimen/large_margin">
+
+        </Spinner>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/medium_margin"
+            android:text="@string/post_name_spinner"
+            android:textSize="@dimen/large_text" />
+
+
+        <Spinner
+            android:id="@+id/addPostImagePostSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/large_margin"
+            android:padding="@dimen/large_margin">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/addPostImagePostDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/large_margin"
+            android:text="@string/hint_post_desc"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/large_text" />
+
+        <ImageButton
+            android:id="@+id/addPostImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:background="@color/White"
+            android:scaleType="centerInside"
+            android:src="@drawable/plus" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/addPostImageRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/addPostImageCountTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/large_margin"
+            android:text="@string/add"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addPostImageSaveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/large_margin"
+            android:padding="@dimen/large_margin"
+            android:text="@string/btn_save"
+            android:textSize="@dimen/large_text" />
+    </LinearLayout>
+</ScrollView>

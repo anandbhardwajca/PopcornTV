@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "133012556308",
+    "firebase_url": "https://popcorntvapp-7c0b5.firebaseio.com",
+    "project_id": "popcorntvapp-7c0b5",
+    "storage_bucket": "popcorntvapp-7c0b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133012556308:android:daa4b0fc76806e1a",
+        "android_client_info": {
+          "package_name": "com.androidsalad.popcorntvapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133012556308-q0oufij27kdio0hfmmtai9ukvbfh6pi9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androidsalad.popcorntvapp",
+            "certificate_hash": "404360008af12d33cb31ebc1b10b4fce33a189b3"
+          }
+        },
+        {
+          "client_id": "133012556308-6kmhcneev0p37m41cc0vrpq2q4mb1o84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Hq5mH3WcgW04cOc6V960VKfACbmgsOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133012556308-6kmhcneev0p37m41cc0vrpq2q4mb1o84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
